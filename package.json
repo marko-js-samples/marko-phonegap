@@ -1,0 +1,32 @@
+{
+  "name": "lasso-marko-phonegap",
+  "version": "1.0.0",
+  "description": "Sample application using Lasso.js/Marko with Phonegap.",
+  "main": "index.js",
+  "dependencies": {
+    "lasso-cli": "^2.0.6",
+    "lasso-marko": "^2.0.7",
+    "marko": "^3.11.8",
+    "lasso": "^2.6.1",
+    "marko-widgets": "^6.3.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build": "lasso --main src/client.js --plugins lasso-marko --name bundle --out www/static --inject-into www/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/austinkelleher/lasso-marko-phonegap.git"
+  },
+  "keywords": [
+    "lasso",
+    "marko",
+    "phonegap"
+  ],
+  "author": "Austin Kelleher, a@alk.im",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/austinkelleher/lasso-marko-phonegap/issues"
+  },
+  "homepage": "https://github.com/austinkelleher/lasso-marko-phonegap#readme"
+}

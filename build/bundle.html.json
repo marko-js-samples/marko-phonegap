@@ -1,0 +1,4 @@
+{
+    "body": "<script src=\"%STATIC_PATH%/bundle.js\"></script>\n<script>$_mod.ready();</script>",
+    "head": "<link rel=\"stylesheet\" href=\"%STATIC_PATH%/bundle.css\">"
+}
