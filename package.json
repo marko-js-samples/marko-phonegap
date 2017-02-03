@@ -9,9 +9,13 @@
     "lasso-marko": "^2.2.2",
     "marko": "^4.0.0-rc.12"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "phonegap": "^6.4.3"
+  },
   "scripts": {
-    "build": "lasso --main src/client.js --plugins lasso-marko --name bundle --out www/static --inject-into www/index.html"
+    "build": "lasso --main src/client.js --plugins lasso-marko --name bundle --out www/static --inject-into www/index.html",
+    "ios": "npm run build && ./node_modules/phonegap/bin/phonegap.js run ios",
+    "android": "npm run build && ./node_modules/phonegap/bin/phonegap.js run android"
   },
   "repository": {
     "type": "git",
