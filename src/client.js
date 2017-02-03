@@ -1,4 +1,5 @@
 var numberSpinner = require('./components/number-spinner');
-numberSpinner.render({
+
+numberSpinner.renderSync({
     value: 5
 }).appendTo(document.body);

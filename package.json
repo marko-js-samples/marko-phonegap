@@ -4,11 +4,10 @@
   "description": "Sample application using Lasso.js/Marko with Phonegap.",
   "main": "index.js",
   "dependencies": {
+    "lasso": "^2.10.3",
     "lasso-cli": "^2.0.6",
-    "lasso-marko": "^2.0.7",
-    "marko": "^3.11.8",
-    "lasso": "^2.6.1",
-    "marko-widgets": "^6.3.7"
+    "lasso-marko": "^2.2.2",
+    "marko": "^4.0.0-rc.12"
   },
   "devDependencies": {},
   "scripts": {

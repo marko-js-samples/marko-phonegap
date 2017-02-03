@@ -2,7 +2,7 @@
 <widget id="com.phonegap.helloworld" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
     <name>Hello World</name>
     <description>
-        Hello World sample application that responds to the deviceready event.
+        Basic application demonstrating Marko.js and Lasso.js with PhoneGap.
     </description>
     <author email="a@alk.im" href="http://austinkelleher.com">
         Austin Kelleher
