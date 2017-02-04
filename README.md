@@ -8,7 +8,7 @@ for static builds.
 # Installation
 
 ```bash
-git clone https://github.com/austinkelleher/lasso-marko-phonegap.git
+git clone https://github.com/marko-js-samples/lasso-marko-phonegap.git
 npm install
 ```
 
