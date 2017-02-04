@@ -4,18 +4,21 @@
   "description": "Sample application using Lasso.js/Marko with Phonegap.",
   "main": "index.js",
   "dependencies": {
+    "fastclick": "^1.0.6",
     "lasso": "^2.10.3",
     "lasso-cli": "^2.0.6",
     "lasso-marko": "^2.2.2",
     "marko": "^4.0.0-rc.12"
   },
   "devDependencies": {
+    "marko-devtools": "0.0.6",
     "phonegap": "^6.4.3"
   },
   "scripts": {
     "build": "lasso --main src/client.js --plugins lasso-marko --name bundle --out www/static --inject-into www/index.html",
     "ios": "npm run build && ./node_modules/phonegap/bin/phonegap.js run ios",
-    "android": "npm run build && ./node_modules/phonegap/bin/phonegap.js run android"
+    "android": "npm run build && ./node_modules/phonegap/bin/phonegap.js run android",
+    "test": "./node_modules/marko-devtools/bin/marko test src/components/"
   },
   "repository": {
     "type": "git",
